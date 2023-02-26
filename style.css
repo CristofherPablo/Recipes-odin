@@ -57,3 +57,44 @@ li a {
   padding: 5px;
   color: black;
 }
+
+@media (min-width: 720px) and (max-width: 900px) {
+  ul{
+    max-width:750px;
+  }
+  li{
+    width: 340px;
+    height: 360px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+
+  li img{
+    width: 340px;
+    height: 250px;
+  }
+}
+
+@media (min-width:321px) and (max-width:500px){
+  li{
+    width: 400px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  li img{
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width:320px) {
+ 
+ ul{
+  padding: 0;
+  justify-content: center;
+ }
+ li{
+  font-weight: bolder;
+ }
+}
