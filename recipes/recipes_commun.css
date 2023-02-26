@@ -1,0 +1,60 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+
+section {
+  margin: 0 auto 20px auto ;
+  max-width: 600px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: black;
+    overflow: hidden;
+
+  /*Box Shadow Web kit*/
+  -webkit-box-shadow: 0px -2px 5px 4px rgba(158, 149, 158, 0.57);
+  -moz-box-shadow: 0px -2px 5px 4px rgba(158, 149, 158, 0.57);
+  box-shadow: 0px -2px 5px 4px rgba(158, 149, 158, 0.57);
+}
+
+h1{
+    margin-top: 0;
+    padding:20px 10px 10px 10px;
+}
+
+img{
+    width: 590px;
+}
+
+p{
+    padding: 0px 10px 10px 10px;
+    text-indent: 30px;
+    text-align: left;
+    
+}
+
+li{
+    margin-left: 10px;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+a{
+    display: block;
+    padding: 5px;
+    width: 70px;
+    height: 25px;
+    margin: auto auto 20px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(62, 60, 60);
+    background-color: antiquewhite;
+    
+}
+
+a:hover{
+    background-color: rgba(102, 100, 98, 0.566);
+}
